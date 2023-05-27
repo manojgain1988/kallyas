@@ -1,0 +1,482 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+section{
+    height: 625px;
+    width: 100%;
+    background-image: url('asset/hero-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+   align-items: center;
+   background-attachment: fixed;
+
+}
+.overly-section{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+   background-color: rgba(0,0,0,0.5);
+   width: 100%;
+   height: 100%;
+        
+}
+nav{
+   
+    display: flex;
+    padding: 2% 5%;
+    justify-content: space-between;
+    text-align: center; 
+  
+   
+  
+}
+nav img{
+    height: 50px;
+    width: 70px;
+    color: #fdfdfd;
+    position: relative;
+    margin-left: 200px;
+    padding-top:12px;
+    
+}
+.nav-menu{
+    flex: 1;
+    text-align: right;
+   
+}
+
+.nav-menu ul li{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px 15px;
+    list-style: none;
+    position: relative;
+   
+    
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    transition: 1s;
+   
+  
+
+}
+
+.nav-menu ul li::after{
+    content: '';
+    width: 0px;
+    height: 2px;
+    background:rgb(252, 9, 9);
+    display: block;
+    bottom:-1px;
+    position: absolute;
+    transition: .5s;
+}
+.nav-menu ul li:hover::after{
+    width: 100%;
+}
+.nav-text h2{
+    color: #f5f3f3;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 70px;
+    position: relative;
+}
+.nav-text p{
+    color: #929191;
+    font-size: 16px;
+    padding: 30px 440px;
+    position: relative;
+}
+.nav-btn{
+    text-align: center;
+    position: relative;
+}
+
+.nav-btn a{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #f70707;
+    padding:5px 18px;
+    font-size: 14px;
+   
+ }
+.nav-btn a:nth-child(1){
+    font-size: 16px;
+    background:#f70707;
+}
+            /*--menu part end--*/ 
+
+
+
+            /*--service part start--*/ 
+
+.service-part{
+     width: 100%;
+     height: 400px;
+}
+.row{
+    display:flex;
+    margin-top: -70px;
+    position: relative;
+   
+}
+.service-con h3::after{
+    content: '';
+    width: 60px;
+    height: 2px;
+    background-color: #fff;
+    position: relative;
+    bottom: -3px;
+    display: block;
+    margin: 20px 0px;
+}
+
+.service-con i{
+    color: #fff;
+    font-size: 60px;
+  
+}
+
+.service-con{
+    background-color: #FB414E;
+    padding: 50px;
+    border-radius: 20px;
+   
+}
+.service-cons{
+    background-color: #202b30;
+    padding: 50px;
+    border-radius: 20px;
+}
+.col-4{
+    padding:0px 25px;
+}
+.service-con h3{
+    color: #fff;
+    margin-top: 20px;
+ 
+  
+}
+.service-con p{
+    color: #fff; 
+}
+
+
+            /*--service part end--*/ 
+
+
+            /*--business part start--*/ 
+.business-part{
+         width: 90%;
+         height: 450px;
+         margin: 80px 40px;
+         text-align: center;
+         background-color: #202b30;
+         margin-left: 80px;
+            
+            }           
+.business-part{
+  
+   
+}
+.row-con{
+    padding: 40px 50px;
+    display: flex;
+    column-gap: 30px;
+}
+.business-con h1{
+    color: #fff;
+    text-align: center;
+    padding: 60px 80px; 
+}
+.business-con p{
+    color: #fff;
+    text-align: center;
+    padding: 0 80px; 
+    margin-bottom: 40px;
+}
+.business-con a{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 7px 15px;
+}
+            /*--business part end--*/ 
+
+            /*--About part end--*/
+.about-part{
+    width: 90%;
+    height: 450px;
+    margin: 80px;
+    background-color: #e0e0e0;
+} 
+.row{
+    margin-top: 50px;
+} 
+.about-con{
+    margin-top: 80px;
+} 
+.about-con h2{
+    padding:20px 50px;
+    font-size: 20px;
+}       
+.about-con p{
+    padding:7px 50px;
+    font-size: 14px;
+    color: #777;
+}
+.col-6 .about-con h1{
+    padding:10px 50px;
+    font-size: 30px;
+}        
+            
+            /*--About part end--*/ 
+
+            /*--portfolio part start--*/ 
+.portfolio-part{
+    width: 90%;
+    height: 600px;
+    margin: 80px;
+    background-color: #e6e5e5;  
+}
+navbar{
+    display: flex;
+    padding: 2% 5%;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.nav-menus{
+    flex: 1;
+    text-align: right;
+    text-align: center;
+    
+}
+.nav-menus ul li{
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    padding:0 10px;
+    text-transform: uppercase;
+    margin-top: 20px; 
+}
+.nav-menus ul li a{
+   text-decoration: none;
+   color: #777;
+   z-index: 1;
+}
+.nav-menus ul li a:hover{
+  text-decoration: underline;
+   color: #000;
+   font-weight: 700;
+}
+.row-port img{
+    width: 286px;
+    padding: 6px 0;
+
+ 
+
+}
+            /*--portfolio part end--*/ 
+
+
+            /*--work part start-- */
+.work-part{
+    width: 100%;
+    height: 400px;
+    margin-top: 120px;
+    background-color: #e6e5e5;  
+
+}
+.col-6 h1{
+   padding: 50px;
+  
+}          
+.col-6 p{
+   padding:0 50px;
+   color: #777;
+   margin-bottom: 40px; 
+}          
+.col-6-work img{
+width: 550px;
+padding:60px 60px;
+margin-left: 30px;
+}  
+.col-6 a{
+   text-decoration: none;
+    color: #000; 
+    border: 1px solid #000;
+    margin-left: 150px;
+    padding: 6px 20px;
+  
+  
+ }         
+            /*--work part end-- */
+
+
+            /*--Design part start-- */
+.design-part{
+    width: 100%;
+    height: 600px;
+  
+}
+.row-design{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}            
+.col-3-design h1{
+    color: #777;
+   padding-top: 10px;
+   font-size: 16px;
+}
+.col-3-design p{
+    color: #777;
+   font-size: 12px;
+   margin-top:-30px;
+   padding: 5px;
+}
+.col-6-work img{
+    width: 600px;
+   
+}
+            /*--Design part end-- */
+
+            /*--proffe part start-- */
+.proffe-part{
+    width: 100%;
+    height: 600px; 
+    background-color: #f7eeee; 
+}
+           
+.row-proffe{
+    display: flex;
+    justify-content: space-between;
+   
+}  
+
+.col-5-proffe h1{
+    text-align:right;
+    font-size: 37px;
+    margin-right: 100px;
+    margin-top: 50px;
+} 
+.col-5-proffe p{
+    padding: 10px 95px;
+    color: #777;
+    text-align:right;
+    margin-right:16px;
+}
+.btn{
+    padding: 10px 0;
+    background-color: #FB414E;
+    color: #fff;
+    font-size: 20px;
+    margin:130px;
+    margin-top:40px;
+    text-align: center; 
+    width: 900px; 
+}
+
+form textarea{
+    color: #dad8d8;
+    width: 400px;
+    margin: 8px 90px;
+    font-weight:800;
+    color: #777; 
+}
+form{
+    margin-top: 90px;
+    margin-right: 90px;
+    
+}
+form input{
+    width: 400px;
+    align-items: center;
+    color: #cacaca;
+    margin: 5px 90px; 
+    line-height: 25px; 
+   
+}   
+
+           /*--proffe part end-- */
+
+           /*--fotter part start-- */
+.fotter-part{
+    height: 400px;
+    width: 100%;
+    margin: 60px 0;
+    background-color: #202B30;
+}
+.fotter-menu{
+    flex: 1;
+    text-align: right;
+}
+.fotter-menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 15px;
+}
+.fotter-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.col-5-foter h2{
+    color: #fff;
+    margin-left: 90px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.col-5-foter p{
+    margin-left: 90px;
+    margin-top: 20px;
+    color: #777;
+}
+.icon{
+    color: #f80202;
+    padding-left:90px;
+    margin: 40px 0;
+    font-size: 25px;  
+}
+.col-7-foter h3{
+    color: #777;
+    margin-left: 340px;
+}
+.col-7-foter p{
+    color: #777;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+.col-7-foter input{
+    margin-left: 230px;
+    margin-top: 14px;
+    line-height: 40px;
+    width: 400px;
+    margin-bottom: 40px;
+   
+}
+.col-7-foter a{
+    font-size: 18px;
+    margin-left: 350px;
+    padding: 12px 60px;
+    background-color: #f70707;
+    text-decoration: none;
+    color: #fff;
+   
+}
+        /*--fotter part end-- */
+        
